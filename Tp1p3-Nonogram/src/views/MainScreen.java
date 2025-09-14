@@ -241,7 +241,7 @@ public class MainScreen extends JFrame {
 		});
 		JButton help = new JButton("Help");
 		help.addActionListener(ev -> JOptionPane.showMessageDialog(MainScreen.this,
-				"Click: rellenar\nClick otra vez: marcar X\nClick otra vez: limpiar", "Help",
+				"Click: rellenar\nClick otra vez: marcar X\nClick otra vez: limpiar \nBoton Aid: Define una casilla como correcta", "Help",
 				JOptionPane.INFORMATION_MESSAGE));
 
 		controls.add(help);
